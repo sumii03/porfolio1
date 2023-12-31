@@ -1,0 +1,818 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+header{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.nav-name{
+    color: #101010;
+    font-size: 24px;
+}
+span{
+    font-style: italic;
+}
+ul{
+    display: flex;
+    gap: 46px;
+}
+ul li{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #111;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.home{
+    color: #F75023;
+}
+
+.nav-btn{
+    width: 154px;
+   height: 44px;
+   color: #111111;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: white;
+    border: 1px solid #F75023;
+    border-radius: 5px;
+    margin-left: 24px;
+    
+
+}
+.nav-btn:hover{
+    background-color: #F75023;
+    color: #FFF;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 360px;
+    padding:30px;
+   
+}
+.ban-subhead{
+    color: #F75023;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.banner-heading{
+    color: #111;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px; 
+    margin-top: 12px ;
+}
+.banner-heading2{
+    color: #111;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; 
+    margin-top: 8px;
+}
+.banner-desp{
+    color: #6F6B80;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 24px; 
+    margin-top: 16px;
+}
+.banner-btn{
+    width: 180px;
+    height: 48px;
+    background: #F75023;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+     
+}
+.social-icon{
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    text-align: center;
+    
+}
+.banner-contact span{
+    margin-left: 4px;
+}
+    
+.bancontact-desp{
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+ .banner-contact{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+    margin-top: 42px;
+ }
+
+ .banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 240px;
+
+  }
+  
+.hero-banner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap:60px;
+    margin: 64px 80px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.benefit{
+    background-color: #F2F5FB;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    padding: 30px;
+    margin-top: 140px;
+
+}
+
+.benefit-card{
+    background-color: white;
+    text-align: center;
+    padding: 36px 30px;
+    border-radius: 10px;
+
+}
+.card-heading{
+    color: #111;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 28px; 
+    margin-top: 24px;
+}
+.card-des{
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-top: 16px;
+    
+    }
+
+   .subhead{
+    color: #F75023;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+   } 
+   .heading{
+    color: #111;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px; 
+    margin-top: 12px;
+   }
+   .desp{
+    color: #6F6B80;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: 16px;
+   }
+
+   .about-btn{
+    width: 110px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F75023;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-top: 42px;
+
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 110px;
+    margin-top: 140px;
+}
+
+
+.service-content{
+    text-align: center;
+    margin-top: 140px;
+}
+
+.card-heading{
+    color: #111;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.card-subhead{
+    color: #111;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+   }
+
+   .card-desp{
+    color: #6F6B80;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+    margin-top: 32px;
+   }
+   .card{
+    display: flex;
+    gap: 20px;
+    justify-content: first baseline;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px 46px;
+   }
+
+   .service-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 110px;
+    margin-top: 56px;
+   }
+   .service{
+    margin-top: 120px;
+   }
+
+   .resume {
+    margin-top: 120px;
+  }
+  
+  .resume-heading {
+    color: #111;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+    margin-bottom: 54px;
+  }
+  
+  .content-heading {
+    color: #101010;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 28 px;
+    text-align: left;
+  }
+  
+  .skill-heading {
+    color: #101010;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 24 px;
+    text-align: left;
+    margin-top: 16px;
+  }
+  
+  .skill-subheading {
+    color: #1a1919;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20 px;
+    text-align: left;
+    margin-top: 12px;
+    
+  }
+  
+  .skill-des {
+    color: #1a1919;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+  
+  hr {
+    margin: 36px 0px;
+  }
+  
+  .resume-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .resume-btn{
+    background-color:#F75023 ;
+    border: none;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 36px;
+    
+    
+  }
+
+  
+  .resume-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  /* contact section */
+  .contact-content{
+    text-align: center;
+  }
+  .contact-heading{
+    color: #101010;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+    
+  .contact-desp{
+    color: #6F6B80;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+   }
+   .contact-media{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   }
+   #email{
+    margin-top: 24px;
+   }
+   #phone{
+    margin-top: 24px;
+   }
+   input{
+    width: 260px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    color: #6F6B80;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+   
+   }
+   .text{
+    margin: 8px;
+    padding: 4px  ;
+   }
+   textarea{
+    border-radius: 5px;
+    background: #FFF;
+    color: #6F6B80;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 4px;
+    margin: 8px;
+
+ 
+   }
+   .submit-btn{
+    width: 132px;
+    height: 42px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background: #F75023;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+
+   }
+   .contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin-top: 56px;
+   }
+   .contact{
+    margin-top: 120px;
+    background-color: #f8e9e24b;
+    padding: 40px 10px;
+   }
+   /* footer */
+   .footer-desp{
+    color: #1a1919;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 16px;
+
+   }
+   .footer-icon{
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: center;
+   }
+   footer{
+    background-color: #F2F5FB;
+    text-align: center;
+    padding: 80px ;
+    margin-top: 80px;
+   }
+
+  /* Mobile responsive */
+
+   @media screen and (max-width:600px){
+      header{
+        margin: 0 auto;
+        text-align: justify;
+        background-size: cover;
+        background-position: center ;
+        }
+
+      .nav{
+         flex-direction: column;
+         justify-content: center;
+         gap: 24px;
+         
+      }
+      ul{
+        margin: 12px 0px 0px 10px;
+        gap: 12px;
+        align-items: center;
+
+      }
+      ul li a{
+        font-size: 12px;
+      }
+      .nav-btn{
+        margin-left: 8px;
+        font-size: 12px;
+        width: 110px;
+        height: 40px;
+
+      }
+      .hero-banner{
+        justify-content: center;
+        gap:40px;
+        margin:24px 40px;
+            
+      }
+      .banner-desp{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 18px; 
+        margin-top: 16px;
+      }
+      .banner-contact{
+        flex-direction: column;
+        justify-content: left;
+        
+      }
+      /* header end */
+      main{
+        margin: 0 auto;
+        text-align: justify;
+      }
+      /* benefit card  */
+      .benefit{
+        grid-template-columns: repeat(1,1fr);
+      }
+      /* about me section */
+
+      .about-me{
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 46px;
+        text-align: center;
+      }
+      .heading{
+        font-size: 30px;
+        line-height: 38px; 
+      }
+      .desp{
+        
+        font-size: 12px;
+        line-height: 16px;
+      }
+      .about-img{
+        width: 300px;
+        height: 350px;
+        margin-left: 0px;
+       text-align: left;
+      }
+      /* service card section */
+      .service{
+        margin-top: 56px;
+      }
+      .service-card{
+         grid-template-columns: repeat(1,1fr);
+         gap: 24px;
+         margin-top: 36px;
+      }
+
+      .card{
+        text-align: center;
+        width: 450px;
+        height: 280px;
+        flex-direction: column;
+        gap: 8px;
+        padding: 20px 100px 60px 0px;
+        margin-top: 32px;
+      }
+      .card-desp{
+        
+        font-size: 12px;
+        line-height: 18px;
+      }
+      
+      /* resume section */
+      .resume-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+        padding: 10px 20px;
+      }
+      .content-heading{
+        text-align: center;
+      }
+      .skill-heading{
+        text-align: center;
+      }
+      .skill-subheading{
+        text-align: center;
+      }
+      .skill-des{
+        font-size: 14px;
+        
+        
+      }
+     
+      /* contact section */
+      .contact-container{
+        flex-direction: column;
+        margin-top: 64px;
+        gap: 80px;
+      }
+      .contact-form{
+        text-align: center;
+      }
+      .contact-desp{
+        color: #6F6B80;
+        font-size: 12px;
+      }
+      .contact{
+        margin-top: 80px;
+      }
+    }
+
+    /* Tablet Responsive*/
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      header{
+        margin: 0 auto;
+        text-align: justify;
+        background-size: cover;
+        background-position: center;
+        }
+
+      .nav{
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        text-align: center;
+         
+      }
+      ul{
+        margin: 12px 40px 24px 160px;
+        gap: 24px;
+        align-items: center;
+
+      }
+      ul li a{
+        font-size: 16px;
+      }
+      .nav-btn{
+        margin-left: 24px;
+        font-size: 16px;
+        width: 154px;
+        height: 44px;
+
+      }
+      .hero-banner{
+        justify-content: center;
+        gap: 80px;
+        margin:24px 20px;
+            
+      }
+      .banner-desp{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 18px; 
+        margin-top: 16px;
+      }
+      .banner-contact{
+        flex-direction: column;
+       
+        
+      }
+      /* .banner-contact{
+        flex-direction: column;
+        
+      } */
+      /* header end */
+      main{
+        margin: 0 auto;
+        text-align: justify;
+      }
+      /* benefit card  */
+      .benefit{
+        grid-template-columns: repeat(1,1fr);
+      }
+      /* about me section */
+
+      .about-me{
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 46px;
+        text-align: center;
+      }
+      .heading{
+        font-size: 30px;
+        line-height: 38px; 
+      }
+      .desp{
+        
+        font-size: 12px;
+        line-height: 16px;
+      }
+      .about-img{
+        width: 300px;
+        height: 350px;
+        margin-left: 0px;
+       text-align: left;
+      }
+      /* service card section */
+      .service{
+        margin-top: 36px;
+      }
+      .service-card{
+          gap: 16px;
+         margin-top: 32px;
+         width: 90%;
+         justify-content: center;
+         margin: 0 auto;
+
+      }
+
+      .card-heading{
+        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px; 
+    }
+    .card-subhead{
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 8px;
+       }
+    
+       .card-desp{
+        
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 22px; 
+        margin-top: 16px;
+       }
+       .cad-img{
+        width: 40%;
+        
+       }
+       .card{
+        padding: 30px 20px;
+        margin-top: 56px;
+       }
+      
+      
+      /* resume section */
+      .resume-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+        padding: 10px 20px;
+      }
+      .content-heading{
+        text-align: center;
+      }
+      .skill-heading{
+        text-align: center;
+      }
+      .skill-subheading{
+        text-align: center;
+      }
+      .skill-des{
+        font-size: 14px;
+        
+        
+      }
+     
+      /* contact section */
+      .contact-container{
+        align-items: center;
+        gap:44px;
+      }
+     
+      .contact-desp{
+        color: #6F6B80;
+        font-size: 12px;
+      }
+      .contact{
+        margin-top: 80px;
+      }
+
+
+    }
+
+
+
+
+
+
+
+
+   
+
+   
+  
+  
+  
+   
+    
+
